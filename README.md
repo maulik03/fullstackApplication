@@ -14,7 +14,7 @@ This is a simple CRUD app which has been divided into 2 parts frontend which is 
 
 1. make sure you have the mysql is installed locally if not please install it or you can create a docker container using below command.
 
-`1docker run \
+`docker run \
   --name local-mysql \
   -p 33061:3306 \
   -e MYSQL_ROOT_PASSWORD=p4ssw0rd \
